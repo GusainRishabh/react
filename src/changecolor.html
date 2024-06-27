@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+"width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <h1>
+        Click the below button to change
+        <br /> the color of it.
+    </h1>
+    <button>
+        Click here
+    </button>
+
+    <script>
+        const button =
+            document.querySelector('button');
+        button.addEventListener('click',
+            () => {
+                button.style.backgroundColor = 
+                    "green";
+            });
+    </script>
+</body>
+
+</html>
